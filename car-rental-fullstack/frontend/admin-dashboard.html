@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard - DriveIndia</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body data-page="admin-dashboard">
+<nav>
+  <div class="nav-logo" style="color:#e84040">🛡️ <span>Admin</span> Portal</div>
+  <div class="nav-links">
+    <span id="admin-name" style="color:var(--muted);font-size:.9rem"></span>
+    <button class="btn-nav" id="admin-logout" style="background:#e84040">Logout</button>
+  </div>
+</nav>
+<div class="dash-layout">
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">Admin Menu</div>
+      <a href="#" class="sidebar-link active" onclick="loadAdminBookings('all')">📋 All Bookings</a>
+      <a href="#" class="sidebar-link" onclick="loadAdminBookings('pending')">⏳ Pending</a>
+      <a href="#" class="sidebar-link" onclick="loadAdminBookings('accepted')">✅ Accepted</a>
+      <a href="#" class="sidebar-link" onclick="loadAdminBookings('rejected')">❌ Rejected</a>
+      <a href="index.html" class="sidebar-link">🏠 Home Site</a>
+    </div>
+  </aside>
+  <main class="dash-main">
+    <div class="dash-header"><h1>ADMIN DASHBOARD</h1><p>Manage all booking requests.</p></div>
+    <div class="stats-row">
+      <div class="stat-card"><div class="label">Total Bookings</div><div class="value gold" id="stat-total">0</div></div>
+      <div class="stat-card"><div class="label">Pending</div><div class="value gold" id="stat-pending">0</div></div>
+      <div class="stat-card"><div class="label">Accepted</div><div class="value green" id="stat-accepted">0</div></div>
+      <div class="stat-card"><div class="label">Rejected</div><div class="value red" id="stat-rejected">0</div></div>
+      <div class="stat-card"><div class="label">Revenue</div><div class="value gold" id="stat-revenue">₹0</div></div>
+    </div>
+    <div style="display:flex;gap:.6rem;margin-bottom:1.2rem;flex-wrap:wrap">
+      <button class="btn btn-outline btn-sm filter-btn active" data-filter="all">All</button>
+      <button class="btn btn-outline btn-sm filter-btn" data-filter="pending">⏳ Pending</button>
+      <button class="btn btn-success btn-sm filter-btn" data-filter="accepted">✅ Accepted</button>
+      <button class="btn btn-danger btn-sm filter-btn" data-filter="rejected">❌ Rejected</button>
+    </div>
+    <div id="admin-bookings-table"></div>
+  </main>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>

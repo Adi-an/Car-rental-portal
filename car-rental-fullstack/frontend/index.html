@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DriveIndia - Premium Car Rentals</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body data-page="home">
+<nav>
+  <div class="nav-logo">🚗 <span>Drive</span>India</div>
+  <div class="nav-links">
+    <a href="index.html" class="active">Home</a>
+    <a href="#cars">Cars</a>
+    <a href="admin-login.html" style="color:var(--gold)">Admin</a>
+    <span id="nav-user-name"></span>
+    <button class="btn-nav" onclick="location.href='login.html'">Login / Sign Up</button>
+  </div>
+</nav>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-tag">🇮🇳 India's Finest Car Rental</div>
+    <h1>DRIVE YOUR <em>INDIA</em> YOUR WAY</h1>
+    <p>Rent premium Indian cars at unbeatable prices. From city runs to mountain adventures.</p>
+    <div class="hero-btns">
+      <a href="login.html" class="btn btn-primary">🚀 Book a Car</a>
+      <a href="#cars" class="btn btn-outline">Explore Fleet ↓</a>
+    </div>
+  </div>
+</section>
+<div style="background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:1.5rem 2rem;">
+  <div style="max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;gap:2rem;justify-content:center;text-align:center">
+    <div><div style="font-size:1.6rem">🛡️</div><div style="font-size:.85rem;color:var(--muted)">Fully Insured</div></div>
+    <div><div style="font-size:1.6rem">📍</div><div style="font-size:.85rem;color:var(--muted)">Pan India Pickup</div></div>
+    <div><div style="font-size:1.6rem">🕐</div><div style="font-size:.85rem;color:var(--muted)">24/7 Support</div></div>
+    <div><div style="font-size:1.6rem">💳</div><div style="font-size:.85rem;color:var(--muted)">Easy UPI Payment</div></div>
+    <div><div style="font-size:1.6rem">🚀</div><div style="font-size:.85rem;color:var(--muted)">Instant Confirmation</div></div>
+  </div>
+</div>
+<section class="section" id="cars">
+  <div class="section-header">
+    <div class="section-label">Our Fleet</div>
+    <h2>CHOOSE YOUR RIDE</h2>
+    <p>10 handpicked Indian favourites - priced right, maintained perfectly</p>
+  </div>
+  <div class="cars-grid" id="cars-grid"></div>
+</section>
+<footer>Made with ❤️ in <span>Bharat</span> &nbsp;|&nbsp; DriveIndia © 2024 &nbsp;|&nbsp; <a href="admin-login.html" style="color:var(--muted)">Admin Portal</a></footer>
+<script src="js/app.js"></script>
+</body>
+</html>
+//cd C:\Users\ADMIN\Downloads\car-rental-fullstack\car-rental-fullstack\backend
+//npm run dev 
+// taskkill /F /IM node.exe
+//cd C:\Users\ADMIN\Downloads\car-rental-fullstack\car-rental-fullstack\backend

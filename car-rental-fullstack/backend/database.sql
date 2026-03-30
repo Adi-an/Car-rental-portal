@@ -1,0 +1,11 @@
+USE driveindia;
+UPDATE cars SET image_url = 'C:\Users\ADMIN\Downloads\car-rental-fullstack\car-rental-fullstack\frontend\js\maruti-suzuki-swift-1.jpg'   WHERE id = 1;
+UPDATE cars SET image_url = 'images/creta.jpg'   WHERE id = 2;
+UPDATE cars SET image_url = 'images/nexon.jpg'   WHERE id = 3;
+UPDATE cars SET image_url = 'images/scorpio.jpg' WHERE id = 4;
+UPDATE cars SET image_url = 'images/innova.jpg'  WHERE id = 5;
+UPDATE cars SET image_url = 'images/city.jpg'    WHERE id = 6;
+UPDATE cars SET image_url = 'images/seltos.jpg'  WHERE id = 7;
+UPDATE cars SET image_url = 'images/ertiga.jpg'  WHERE id = 8;
+UPDATE cars SET image_url = 'images/safari.jpg'  WHERE id = 9;
+UPDATE cars SET image_url = 'images/thar.jpg'    WHERE id = 10;
