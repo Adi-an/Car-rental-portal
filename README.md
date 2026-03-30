@@ -2,6 +2,9 @@
    DriveIndia — Car Rental Portal (Full Stack)
 
 HTML + CSS + JS Frontend connected to a Node.js + Express + MySQL Backend
+
+
+
 │
 ├── frontend/                   ← All HTML/CSS/JS files (open in browser)
 │   ├── index.html              ← Home page — public car listings
