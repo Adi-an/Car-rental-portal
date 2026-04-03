@@ -34,3 +34,4 @@ HTML + CSS + JS Frontend connected to a Node.js + Express + MySQL Backend
 ├── .gitignore
 └── README.md
 ![image alt](https://github.com/Adi-an/Car-rental-portal/blob/764a7ff15954314fef9d6ce463fc8ffec5b06ecb/Screenshot%202026-04-03%20110915.png)
+![image alt](https://github.com/Adi-an/Car-rental-portal/blob/696ca59007f900f84518e150a95e2d17f3d1f6ee/Screenshot%202026-04-03%20111105.png)
